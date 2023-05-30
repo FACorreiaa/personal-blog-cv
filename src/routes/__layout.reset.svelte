@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+
 	import Header from '../lib/Header.svelte';
 	import Footer from '../lib/Footer.svelte';
 </script>
@@ -8,7 +9,7 @@
 	<Header />
 </header>
 
-<main data-theme="catppuccin-latte">
+<main class="bg-purple-200">
 	<slot />
 </main>
 
